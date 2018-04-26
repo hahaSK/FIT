@@ -1,0 +1,14 @@
+# Target labels
+ googletest
+# Source files and their labels
+/home/juraj/FIT/IVS/ivs_project_1/assignment/cmake-build-debug/googletest/CMakeFiles/googletest
+/home/juraj/FIT/IVS/ivs_project_1/assignment/cmake-build-debug/googletest/CMakeFiles/googletest.rule
+/home/juraj/FIT/IVS/ivs_project_1/assignment/cmake-build-debug/googletest/CMakeFiles/googletest-complete.rule
+/home/juraj/FIT/IVS/ivs_project_1/assignment/cmake-build-debug/googletest/googletest-prefix/src/googletest-stamp/googletest-install.rule
+/home/juraj/FIT/IVS/ivs_project_1/assignment/cmake-build-debug/googletest/googletest-prefix/src/googletest-stamp/googletest-mkdir.rule
+/home/juraj/FIT/IVS/ivs_project_1/assignment/cmake-build-debug/googletest/googletest-prefix/src/googletest-stamp/googletest-download.rule
+/home/juraj/FIT/IVS/ivs_project_1/assignment/cmake-build-debug/googletest/googletest-prefix/src/googletest-stamp/googletest-update.rule
+/home/juraj/FIT/IVS/ivs_project_1/assignment/cmake-build-debug/googletest/googletest-prefix/src/googletest-stamp/googletest-patch.rule
+/home/juraj/FIT/IVS/ivs_project_1/assignment/cmake-build-debug/googletest/googletest-prefix/src/googletest-stamp/googletest-configure.rule
+/home/juraj/FIT/IVS/ivs_project_1/assignment/cmake-build-debug/googletest/googletest-prefix/src/googletest-stamp/googletest-build.rule
+/home/juraj/FIT/IVS/ivs_project_1/assignment/cmake-build-debug/googletest/googletest-prefix/src/googletest-stamp/googletest-test.rule

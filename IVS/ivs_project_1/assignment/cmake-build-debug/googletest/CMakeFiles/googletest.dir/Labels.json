@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/juraj/FIT/IVS/ivs_project_1/assignment/cmake-build-debug/googletest/CMakeFiles/googletest"
+		},
+		{
+			"file" : "/home/juraj/FIT/IVS/ivs_project_1/assignment/cmake-build-debug/googletest/CMakeFiles/googletest.rule"
+		},
+		{
+			"file" : "/home/juraj/FIT/IVS/ivs_project_1/assignment/cmake-build-debug/googletest/CMakeFiles/googletest-complete.rule"
+		},
+		{
+			"file" : "/home/juraj/FIT/IVS/ivs_project_1/assignment/cmake-build-debug/googletest/googletest-prefix/src/googletest-stamp/googletest-install.rule"
+		},
+		{
+			"file" : "/home/juraj/FIT/IVS/ivs_project_1/assignment/cmake-build-debug/googletest/googletest-prefix/src/googletest-stamp/googletest-mkdir.rule"
+		},
+		{
+			"file" : "/home/juraj/FIT/IVS/ivs_project_1/assignment/cmake-build-debug/googletest/googletest-prefix/src/googletest-stamp/googletest-download.rule"
+		},
+		{
+			"file" : "/home/juraj/FIT/IVS/ivs_project_1/assignment/cmake-build-debug/googletest/googletest-prefix/src/googletest-stamp/googletest-update.rule"
+		},
+		{
+			"file" : "/home/juraj/FIT/IVS/ivs_project_1/assignment/cmake-build-debug/googletest/googletest-prefix/src/googletest-stamp/googletest-patch.rule"
+		},
+		{
+			"file" : "/home/juraj/FIT/IVS/ivs_project_1/assignment/cmake-build-debug/googletest/googletest-prefix/src/googletest-stamp/googletest-configure.rule"
+		},
+		{
+			"file" : "/home/juraj/FIT/IVS/ivs_project_1/assignment/cmake-build-debug/googletest/googletest-prefix/src/googletest-stamp/googletest-build.rule"
+		},
+		{
+			"file" : "/home/juraj/FIT/IVS/ivs_project_1/assignment/cmake-build-debug/googletest/googletest-prefix/src/googletest-stamp/googletest-test.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"googletest"
+		],
+		"name" : "googletest"
+	}
+}

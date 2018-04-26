@@ -1,0 +1,33 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/juraj/FIT/IVS/ivs_project_1/assignment/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_629ca/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_629ca.dir/build.make CMakeFiles/cmTC_629ca.dir/build
+gmake[1]: Entering directory '/home/juraj/FIT/IVS/ivs_project_1/assignment/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_629ca.dir/CheckSymbolExists.c.o
+/usr/lib64/ccache/cc   -g -O0 -fprofile-arcs -ftest-coverage    -o CMakeFiles/cmTC_629ca.dir/CheckSymbolExists.c.o   -c /home/juraj/FIT/IVS/ivs_project_1/assignment/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_629ca
+/home/juraj/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.3986.16/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_629ca.dir/link.txt --verbose=1
+/usr/lib64/ccache/cc  -g -O0 -fprofile-arcs -ftest-coverage     -rdynamic CMakeFiles/cmTC_629ca.dir/CheckSymbolExists.c.o  -o cmTC_629ca 
+CMakeFiles/cmTC_629ca.dir/CheckSymbolExists.c.o: In function `main':
+/home/juraj/FIT/IVS/ivs_project_1/assignment/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8: undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_629ca.dir/build.make:98: cmTC_629ca] Error 1
+gmake[1]: Leaving directory '/home/juraj/FIT/IVS/ivs_project_1/assignment/cmake-build-debug/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:126: cmTC_629ca/fast] Error 2
+
+File /home/juraj/FIT/IVS/ivs_project_1/assignment/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
