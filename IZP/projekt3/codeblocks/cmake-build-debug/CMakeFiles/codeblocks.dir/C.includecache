@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/juraj/FIT/projekt3/codeblocks/main.c
+stdio.h
+-
+stdlib.h
+-
+assert.h
+-
+math.h
+-
+limits.h
+-
+stdbool.h
+-
+string.h
+-
+

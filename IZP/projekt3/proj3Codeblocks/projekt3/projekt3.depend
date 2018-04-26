@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1512746375 source:/home/juraj/FIT/projekt3/proj3Codeblocks/projekt3/main.c
+	<stdio.h>
+	<stdlib.h>
+	<assert.h>
+	<math.h>
+	<limits.h>
+	<stdbool.h>
+	<string.h>
+

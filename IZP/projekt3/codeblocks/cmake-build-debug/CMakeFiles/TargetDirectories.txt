@@ -1,0 +1,3 @@
+/home/juraj/FIT/projekt3/codeblocks/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/juraj/FIT/projekt3/codeblocks/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/juraj/FIT/projekt3/codeblocks/cmake-build-debug/CMakeFiles/codeblocks.dir

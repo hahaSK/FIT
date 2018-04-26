@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1510941072 source:/home/juraj/FIT/projekt2/codeblocks/projekt2/main.c
+	<stdio.h>
+	<math.h>
+	<string.h>
+	<stdlib.h>
+	<stdbool.h>
+

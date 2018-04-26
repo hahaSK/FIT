@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/juraj/FIT/projekt2/CLion/main.c
+stdio.h
+-
+math.h
+-
+ctype.h
+-
+string.h
+-
+stdlib.h
+-
+stdbool.h
+-
+

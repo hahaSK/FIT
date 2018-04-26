@@ -1,0 +1,4 @@
+/home/juraj/CLion/CLion-2017.2.3/clion-2017.2.3/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -lm -Werror -Wall -G "CodeBlocks - Unix Makefiles" /home/juraj/FIT/projekt2/CLion
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/juraj/FIT/projekt2/CLion/cmake-build-debug
