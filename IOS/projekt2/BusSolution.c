@@ -181,18 +181,23 @@ void riderGenerator(int riders, int newRiderDelay)
       }
       else if (newRiderProcess < 0)
       {
-        perror("ERROR: Fork error!");
+        perror("Error: Fork error!");
         cleanup();
         exit(2);
       }
     }
+
+    /*if (newRiderProcess > 0)
+    {
+      while (wait(NULL) > 0);
+    }*/
 
     closeSemaphores();
     exit(EXIT_SUCCESS);
   }
   else if (riderProcessGenerator < 0)
   {
-    perror("ERROR: Fork error!");
+    perror("Error: Fork error!");
     cleanup();
     exit(2);
   }
@@ -362,17 +367,18 @@ int busSolution(int riders, int busCapacity, int newRiderDelay, int busRideTime)
   }
   else if (busProcess < 0)
   {
-    perror("ERROR: Fork error!");
+    perror("Error: Fork error!");
     cleanup();
     exit(2);
   }
   else
   {
     riderGenerator(riders, newRiderDelay);
+    while (wait(NULL) > 0);
   }
 
   cleanup();
-  exit(EXIT_SUCCESS);
+  return EXIT_SUCCESS;
 }
 
 void processFail()
