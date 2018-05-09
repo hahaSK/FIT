@@ -187,10 +187,10 @@ void riderGenerator(int riders, int newRiderDelay)
       }
     }
 
-    /*if (newRiderProcess > 0)
+    if (newRiderProcess > 0)
     {
       while (wait(NULL) > 0);
-    }*/
+    }
 
     closeSemaphores();
     exit(EXIT_SUCCESS);
@@ -276,7 +276,7 @@ void processBus(int riders, int busCapacity, int busRideTime)
     {
       ridersToBoard = getMin(*waitingriders, busCapacity);
       (*actionNumber)++;
-      fprintf(pfile, "%d: BUS: start boarding: %d\n", *actionNumber, ridersToBoard);
+      fprintf(pfile, "%d: BUS: start boarding: %d\n", *actionNumber, *waitingriders);
 
       // Get all available riders on board
       for (int i = 0; i < ridersToBoard; i++)
